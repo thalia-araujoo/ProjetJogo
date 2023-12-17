@@ -42,7 +42,7 @@ class Batalha {
         exibirResultadoBatalha(jogador, oponente);
     }
 
-    private void realizarAtaque(Personagem atacante, Personagem oponente) {
+    public void realizarAtaque(Personagem atacante, Personagem oponente) {
         Arma armaAtacante = atacante.getArma();
         Arma armaOponente = oponente.getArma();
 
